@@ -4,25 +4,21 @@ Algorithm taken from [alexkroman/word-ladder](https://github.com/alexkroman/word
 
 ## Usage
 
-```ruby
-  require "rungs"
-```
-
 See @alexkroman's [instructions](https://github.com/alexkroman/word-ladder/blob/master/README.md) for the general idea.
 
-Solving #0
+```ruby
+require "rungs"
 
-    Rungs::WordLadder.new(word: "best").call.data.count
+# 0
+Rungs::WordLadder.new(word: "best").call.data.count
 
-Solving #1 (bonus)
+#1 (bonus)
+result = Rungs::Climb.new.call.data
+result.select { |k,v| v.count == 33 }
 
-    result = Rungs::Climb.new.call.data
-    result.select { |k,v| v.count == 33 }
-
-Solving #2 (bonus)
-
-    Rungs::WordLadder.new(word: "best", steps: 3).call.data.count
-
+#2 (bonus)
+Rungs::WordLadder.new(word: "best", steps: 3).call.data.count
+```
 
 ## Installation
 
