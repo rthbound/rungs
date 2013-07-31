@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Rungs::VERSION
   spec.authors       = ["Ryan T. Hosford"]
   spec.email         = ["tad.hosford@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Gem for messing around with https://github.com/alexkroman/word-ladder }
+  spec.summary       = %q{Gem for messing around with https://github.com/alexkroman/word-ladder }
+  spec.homepage      = "https://github.com/rthbound/rungs"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "pry"
   spec.add_development_dependency "minitest"
-  spec.add_runtime_dependency "pay_dirt"
+  spec.add_runtime_dependency     "pay_dirt", '1.0.7'
 end
