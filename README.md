@@ -1,4 +1,4 @@
-# Rungs
+# Rungs [![Build Status](https://travis-ci.org/rthbound/rungs.png?branch=master)](https://travis-ci.org/rthbound/rungs)[![Code Climate](https://codeclimate.com/github/rthbound/rungs.png)](https://codeclimate.com/github/rthbound/rungs)
 
 Algorithm taken from [alexkroman/word-ladder](https://github.com/alexkroman/word-ladder/blob/master/README.md)
 
