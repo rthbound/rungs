@@ -4,4 +4,4 @@ require "minitest/autorun"
 $: << File.dirname(__FILE__) + "/../lib"
 $: << File.dirname(__FILE__)
 
-require 'service_objects/word_ladder'
+require "rungs"

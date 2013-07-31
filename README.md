@@ -1,6 +1,28 @@
 # Rungs
 
-TODO: Write a gem description
+Algorithm taken from [alexkroman/word-ladder](https://github.com/alexkroman/word-ladder/blob/master/README.md)
+
+## Usage
+
+```ruby
+  require "rungs"
+```
+
+See @alexkroman's [instructions](https://github.com/alexkroman/word-ladder/blob/master/README.md) for the general idea.
+
+Solving #0
+
+    Rungs::WordLadder.new(word: "best").call.data.count
+
+Solving #1 (bonus)
+
+    result = Rungs::Climb.new.call.data
+    result.select { |k,v| v.count == 33 }
+
+Solving #2 (bonus)
+
+    Rungs::WordLadder.new(word: "best", steps: 3).call.data.count
+
 
 ## Installation
 
@@ -15,10 +37,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install rungs
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 

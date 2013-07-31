@@ -1,8 +1,8 @@
 require 'test_helper'
 
-describe ServiceObjects::WordLadder do
+describe Rungs::WordLadder do
   before do
-    @subject = ServiceObjects::WordLadder
+    @subject = Rungs::WordLadder
     @params = {
       word: "butt",
     }
